@@ -1,0 +1,20 @@
+{
+  "name": "testcafe-weird-src-behaviour",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test.expected": "node tests/configs/expected.config.js",
+    "test.buggy": "node tests/configs/buggy.config.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-testcafe": "^0.2.1",
+    "testcafe": "^1.9.4"
+  }
+}
